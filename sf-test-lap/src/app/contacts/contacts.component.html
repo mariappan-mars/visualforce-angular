@@ -1,0 +1,8 @@
+Query: <br/>
+<textarea [(ngModel)]="queryText" style="width:100%; margin: 10px 0;"></textarea>
+<br/>
+<button (click)="runQuery()">Run</button>
+<br/><br/>
+<div>
+    {{queryResult.result | json}}
+</div>
